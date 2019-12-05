@@ -8,26 +8,27 @@
     background-color: var(--bg-button);
     border: none;
     border-right: var(--border-button);
-    border-bottom: var(--bg-button);
+    border-bottom: var(--border-button);
     outline: none;
 }
 
-.button:active{
-    background-color: #888;
+.button:active {
+    background-color: #ccc;
 }
 
-.button.double{
+.button.double {
     grid-column: span 2;
 }
-.button.triple{
+
+.button.triple {
     grid-column: span 3;
 }
 
-.button.operation{
+.button.operation {
     background-color: #fa8231;
-    color: #ffffff;
+    color: #FFF;
 }
 
-.button.operation:active{
-    background-color: #fa823100;
+.button.operation:active {
+    background-color: #fa8231cc;
 }
